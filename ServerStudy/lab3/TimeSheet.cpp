@@ -57,7 +57,7 @@ namespace lab3
 
     int TimeSheet::GetTimeEntry(const unsigned int index) const
     {
-        if (false == hasEntry(index))
+        if (false == HasEntry(index))
         {
             return kInvalidInt;
         }
