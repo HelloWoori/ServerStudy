@@ -7,6 +7,7 @@
 ### 목차
 
 ##### 1. lab2
+<img src=".\images\lab2.png" alt="lab2" style="zoom:60%;" />
 
 - 2020.06.27
 
@@ -17,8 +18,10 @@
 - `#include <iomanip>`
 
 #####  2. lab3
+<img src=".\images\lab3.png" alt="lab3" style="zoom:60%;" />
 
 - 2020.07.04
 
 - 근무 시간 기록 클래스
+
 - 표준편차, 일반화
