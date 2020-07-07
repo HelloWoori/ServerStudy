@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="lab3">
+      <UniqueIdentifier>{705f31a3-3268-4349-bc71-26c1b2cb0c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lab2">
+      <UniqueIdentifier>{7d5f2918-fe76-4884-a608-a95e7c8e504d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="2. base">
+      <UniqueIdentifier>{d2f9d1de-9f10-40af-9da6-75cb453d481a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ServerStudy.cpp">
+      <Filter>1. main</Filter>
+    </ClCompile>
+    <ClCompile Include="lab3\TimeSheet.cpp">
+      <Filter>lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="lab2\IO_Manipulators.cpp">
+      <Filter>lab2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lab3\TimeSheet.h">
+      <Filter>lab3</Filter>
+    </ClInclude>
+    <ClInclude Include="WooriAssert.h">
+      <Filter>2. base</Filter>
+    </ClInclude>
+    <ClInclude Include="lab2\IO_Manipulators.h">
+      <Filter>lab2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
