@@ -1,7 +1,6 @@
 #pragma once
 
 #include "Point.h"
-#include <vector>
 
 namespace lab4
 {

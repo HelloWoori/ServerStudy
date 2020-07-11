@@ -4,8 +4,8 @@
 #include <iostream>
 #include <vector>
 
-#include "lab2/IO_Manipulators.h"
-#include "lab3/TimeSheet.h"
+//#include "lab2/IO_Manipulators.h"
+//#include "lab3/TimeSheet.h"
 #include "lab4/Point.h"
 #include "lab4/PolyLine.h"
 
@@ -14,7 +14,6 @@ int main()
 	using namespace lab4;
 	TestPoint();
 	TestPolyLine();
-
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

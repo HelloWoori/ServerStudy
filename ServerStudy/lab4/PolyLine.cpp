@@ -1,6 +1,8 @@
 #include "PolyLine.h"
 
-#include <iostream>
+#include <memory>
+#include <limits>
+
 #include "WooriAssert.h"
 
 namespace lab4
