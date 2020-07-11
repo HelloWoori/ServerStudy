@@ -25,3 +25,13 @@
 - 근무 시간 기록 클래스
 
 - 표준편차, 일반화
+
+
+
+##### 3. lab4
+
+<img src=".\images\lab4.png" alt="lab4" style="zoom:60%;" />
+
+- 2020.07.11
+- Point, PolyLine 클래스
+- 최소 경계 사각형
