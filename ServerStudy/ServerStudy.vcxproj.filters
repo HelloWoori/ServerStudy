@@ -18,6 +18,12 @@
     <Filter Include="2. base">
       <UniqueIdentifier>{d2f9d1de-9f10-40af-9da6-75cb453d481a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="lab4">
+      <UniqueIdentifier>{f5f21454-3d26-4aae-b58e-aa921c8f8931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assignment1">
+      <UniqueIdentifier>{0175e00e-7f98-472e-bebb-687fb4f58663}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ServerStudy.cpp">
@@ -29,6 +35,12 @@
     <ClCompile Include="lab2\IO_Manipulators.cpp">
       <Filter>lab2</Filter>
     </ClCompile>
+    <ClCompile Include="lab4\Point.cpp">
+      <Filter>lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="lab4\PolyLine.cpp">
+      <Filter>lab4</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lab3\TimeSheet.h">
@@ -39,6 +51,12 @@
     </ClInclude>
     <ClInclude Include="lab2\IO_Manipulators.h">
       <Filter>lab2</Filter>
+    </ClInclude>
+    <ClInclude Include="lab4\Point.h">
+      <Filter>lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="lab4\PolyLine.h">
+      <Filter>lab4</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
