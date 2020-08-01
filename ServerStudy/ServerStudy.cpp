@@ -2,18 +2,28 @@
 //
 
 #include <iostream>
-#include <vector>
 
 //#include "lab2/IO_Manipulators.h"
 //#include "lab3/TimeSheet.h"
-#include "lab4/Point.h"
+//#include "lab4/Point.h"
 #include "lab4/PolyLine.h"
+#include "lab5/Test.h"
+
+#include "assignment1/MyString.h"
 
 int main()
 {
-	using namespace lab4;
-	TestPoint();
-	TestPolyLine();
+	//using namespace lab4;
+	//TestPoint();
+	//TestPolyLine();
+
+	using namespace assignment1;
+	Test();
+
+	using namespace lab5;
+	TestBarney();
+
+	return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

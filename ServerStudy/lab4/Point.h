@@ -31,4 +31,4 @@ namespace lab4
 	// Point p6 = operator*(2.f, p2);
 	Point operator*(float operand, const Point& point);
 
-} // namespace lab
+} // namespace lab4

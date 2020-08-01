@@ -5,12 +5,6 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="lab3">
-      <UniqueIdentifier>{705f31a3-3268-4349-bc71-26c1b2cb0c58}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="lab2">
-      <UniqueIdentifier>{7d5f2918-fe76-4884-a608-a95e7c8e504d}</UniqueIdentifier>
-    </Filter>
     <Filter Include="1. main">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
@@ -18,11 +12,26 @@
     <Filter Include="2. base">
       <UniqueIdentifier>{d2f9d1de-9f10-40af-9da6-75cb453d481a}</UniqueIdentifier>
     </Filter>
-    <Filter Include="lab4">
+    <Filter Include="assignment">
+      <UniqueIdentifier>{066826ab-6e39-45d7-9f43-11f8610dbc39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assignment\assignment1">
+      <UniqueIdentifier>{0175e00e-7f98-472e-bebb-687fb4f58663}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lab">
+      <UniqueIdentifier>{2f180b00-2762-4752-b043-7d9076c3162b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lab\lab2">
+      <UniqueIdentifier>{7d5f2918-fe76-4884-a608-a95e7c8e504d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lab\lab3">
+      <UniqueIdentifier>{705f31a3-3268-4349-bc71-26c1b2cb0c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lab\lab4">
       <UniqueIdentifier>{f5f21454-3d26-4aae-b58e-aa921c8f8931}</UniqueIdentifier>
     </Filter>
-    <Filter Include="assignment1">
-      <UniqueIdentifier>{0175e00e-7f98-472e-bebb-687fb4f58663}</UniqueIdentifier>
+    <Filter Include="lab\lab5">
+      <UniqueIdentifier>{33c176af-46b1-4adf-a68e-7580636ebbde}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -30,33 +39,87 @@
       <Filter>1. main</Filter>
     </ClCompile>
     <ClCompile Include="lab3\TimeSheet.cpp">
-      <Filter>lab3</Filter>
+      <Filter>lab\lab3</Filter>
     </ClCompile>
     <ClCompile Include="lab2\IO_Manipulators.cpp">
-      <Filter>lab2</Filter>
+      <Filter>lab\lab2</Filter>
     </ClCompile>
     <ClCompile Include="lab4\Point.cpp">
-      <Filter>lab4</Filter>
+      <Filter>lab\lab4</Filter>
     </ClCompile>
     <ClCompile Include="lab4\PolyLine.cpp">
-      <Filter>lab4</Filter>
+      <Filter>lab\lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment1\MyString.cpp">
+      <Filter>assignment\assignment1</Filter>
+    </ClCompile>
+    <ClCompile Include="lab5\Lawn.cpp">
+      <Filter>lab\lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="lab5\CircleLawn.cpp">
+      <Filter>lab\lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="lab5\RectangleLawn.cpp">
+      <Filter>lab\lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="lab5\SquareLawn.cpp">
+      <Filter>lab\lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="lab5\EquilateralTriangleLawn.cpp">
+      <Filter>lab\lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="lab5\BarneyUsefulInfo.cpp">
+      <Filter>lab\lab5</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lab3\TimeSheet.h">
-      <Filter>lab3</Filter>
+      <Filter>lab\lab3</Filter>
     </ClInclude>
     <ClInclude Include="WooriAssert.h">
       <Filter>2. base</Filter>
     </ClInclude>
     <ClInclude Include="lab2\IO_Manipulators.h">
-      <Filter>lab2</Filter>
+      <Filter>lab\lab2</Filter>
     </ClInclude>
     <ClInclude Include="lab4\Point.h">
-      <Filter>lab4</Filter>
+      <Filter>lab\lab4</Filter>
     </ClInclude>
     <ClInclude Include="lab4\PolyLine.h">
-      <Filter>lab4</Filter>
+      <Filter>lab\lab4</Filter>
+    </ClInclude>
+    <ClInclude Include="lab5\Lawn.h">
+      <Filter>lab\lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment1\MyString.h">
+      <Filter>assignment\assignment1</Filter>
+    </ClInclude>
+    <ClInclude Include="lab5\IFenceable.h">
+      <Filter>lab\lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="lab5\CircleLawn.h">
+      <Filter>lab\lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="lab5\RectangleLawn.h">
+      <Filter>lab\lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="lab5\SquareLawn.h">
+      <Filter>lab\lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="lab5\EquilateralTriangleLawn.h">
+      <Filter>lab\lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="lab5\eGrassType.h">
+      <Filter>lab\lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="lab5\eFenceType.h">
+      <Filter>lab\lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="lab5\BarneyUsefulInfo.h">
+      <Filter>lab\lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="lab5\Test.h">
+      <Filter>lab\lab5</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
