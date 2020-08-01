@@ -40,8 +40,9 @@
 
 ##### 4. lab5 & assginment1
 
-![assignment1](.\images\assignment1.png)
+<img src=".\images\assignment1.png" alt="assignment1" style="zoom:60%;" />
 
+- 2020.08.01
 - lab5: 바니의 완벽한 잔디밭
 - assignment1: MyString 클래스
 
