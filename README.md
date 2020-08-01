@@ -35,3 +35,13 @@
 - 2020.07.11
 - Point, PolyLine 클래스
 - 최소 경계 사각형
+
+
+
+##### 4. lab5 & assginment1
+
+![assignment1](.\images\assignment1.png)
+
+- lab5: 바니의 완벽한 잔디밭
+- assignment1: MyString 클래스
+
