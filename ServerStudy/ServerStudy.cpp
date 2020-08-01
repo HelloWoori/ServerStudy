@@ -7,7 +7,7 @@
 //#include "lab3/TimeSheet.h"
 //#include "lab4/Point.h"
 #include "lab4/PolyLine.h"
-#include "lab5/Test.h"
+#include "lab5/TestBarney.h"
 
 #include "assignment1/MyString.h"
 

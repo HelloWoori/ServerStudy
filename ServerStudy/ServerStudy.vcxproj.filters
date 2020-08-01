@@ -118,7 +118,7 @@
     <ClInclude Include="lab5\BarneyUsefulInfo.h">
       <Filter>lab\lab5</Filter>
     </ClInclude>
-    <ClInclude Include="lab5\Test.h">
+    <ClInclude Include="lab5\TestBarney.h">
       <Filter>lab\lab5</Filter>
     </ClInclude>
   </ItemGroup>

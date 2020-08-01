@@ -175,7 +175,7 @@
     <ClInclude Include="lab5\Lawn.h" />
     <ClInclude Include="lab5\RectangleLawn.h" />
     <ClInclude Include="lab5\SquareLawn.h" />
-    <ClInclude Include="lab5\Test.h" />
+    <ClInclude Include="lab5\TestBarney.h" />
     <ClInclude Include="WooriAssert.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

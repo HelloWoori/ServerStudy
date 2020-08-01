@@ -31,7 +31,7 @@ namespace lab5
 		assert(fencesCount1 == 240);
 			
 		delete lawn1;
-		delete rectangleLawn;
+
 		///////////////////////////////////////////
 
 		Lawn* lawn2 = new SquareLawn(10);
@@ -51,7 +51,7 @@ namespace lab5
 		assert(fencesCount2 == 160);
 
 		delete lawn2;
-		delete squareLawn;
+
 		/////////////////////////////////////////////
 
 		Lawn* lawn3 = new CircleLawn(10);
@@ -71,7 +71,7 @@ namespace lab5
 		assert(fencesCount3 == 0);
 
 		delete lawn3;
-		delete circleLawn;
+
 		/////////////////////////////////////////////
 
 		Lawn* lawn4 = new EquilateralTriangleLawn(10);
@@ -91,7 +91,6 @@ namespace lab5
 		assert(fencesCount4 == 120);
 
 		delete lawn4;
-		delete triangleLawn;
 
 		//std::cout << "area: " << area << std::endl;
 		//std::cout << "grassPrice: " << grassPrice << std::endl;
