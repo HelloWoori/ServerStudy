@@ -31,5 +31,5 @@ unsigned int lab5::EquilateralTriangleLawn::GetMinimumFencesCount() const
 
 unsigned int lab5::EquilateralTriangleLawn::GetFencePrice(eFenceType fenceType) const
 {
-    return GetMinimumFencesCount() * BarneyUsefulInfo::GetFenceTypePriceDollars(fenceType);
+    return static_cast<int>(GetMinimumFencesCount() * BarneyUsefulInfo::GetFenceTypePriceDollars(fenceType));
 }
