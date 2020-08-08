@@ -88,12 +88,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;$(ProjectDir)\lab5;$(ProjectDir)\lab6;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;$(ProjectDir)\lab5;$(ProjectDir)\lab6;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -104,14 +104,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;$(ProjectDir)\lab5;$(ProjectDir)\lab6;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;$(ProjectDir)\lab5;$(ProjectDir)\lab6;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -120,12 +120,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;$(ProjectDir)\lab5;$(ProjectDir)\lab6;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;$(ProjectDir)\lab5;$(ProjectDir)\lab6;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -136,14 +136,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;$(ProjectDir)\lab5;$(ProjectDir)\lab6;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(ProjectDir);$(ProjectDir)\lab2;$(ProjectDir)\lab3;$(ProjectDir)\lab4;$(ProjectDir)\assignment1;$(ProjectDir)\lab5;$(ProjectDir)\lab6;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -158,6 +158,7 @@
     <ClCompile Include="lab5\Lawn.cpp" />
     <ClCompile Include="lab5\RectangleLawn.cpp" />
     <ClCompile Include="lab5\SquareLawn.cpp" />
+    <ClCompile Include="lab6\Lab6.cpp" />
     <ClCompile Include="ServerStudy.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -176,6 +177,7 @@
     <ClInclude Include="lab5\RectangleLawn.h" />
     <ClInclude Include="lab5\SquareLawn.h" />
     <ClInclude Include="lab5\TestBarney.h" />
+    <ClInclude Include="lab6\Lab6.h" />
     <ClInclude Include="WooriAssert.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

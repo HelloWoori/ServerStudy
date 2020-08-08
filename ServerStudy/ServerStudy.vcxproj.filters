@@ -33,6 +33,9 @@
     <Filter Include="lab\lab5">
       <UniqueIdentifier>{33c176af-46b1-4adf-a68e-7580636ebbde}</UniqueIdentifier>
     </Filter>
+    <Filter Include="lab\lab6">
+      <UniqueIdentifier>{61e8886f-91a5-4c48-824a-da2c4ad04594}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ServerStudy.cpp">
@@ -70,6 +73,9 @@
     </ClCompile>
     <ClCompile Include="lab5\BarneyUsefulInfo.cpp">
       <Filter>lab\lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="lab6\Lab6.cpp">
+      <Filter>lab\lab6</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -120,6 +126,9 @@
     </ClInclude>
     <ClInclude Include="lab5\TestBarney.h">
       <Filter>lab\lab5</Filter>
+    </ClInclude>
+    <ClInclude Include="lab6\Lab6.h">
+      <Filter>lab\lab6</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

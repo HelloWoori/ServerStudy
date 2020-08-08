@@ -6,10 +6,11 @@
 //#include "lab2/IO_Manipulators.h"
 //#include "lab3/TimeSheet.h"
 //#include "lab4/Point.h"
-#include "lab4/PolyLine.h"
-#include "lab5/TestBarney.h"
+//#include "lab4/PolyLine.h"
+//#include "lab5/TestBarney.h"
+#include "lab6/Lab6.h"
 
-#include "assignment1/MyString.h"
+//#include "assignment1/MyString.h"
 
 int main()
 {
@@ -17,11 +18,14 @@ int main()
 	//TestPoint();
 	//TestPolyLine();
 
-	using namespace assignment1;
-	Test();
+	//using namespace assignment1;
+	//Test();
 
-	using namespace lab5;
-	TestBarney();
+	//using namespace lab5;
+	//TestBarney();
+
+	using namespace lab6;
+	Test();
 
 	return 0;
 }
