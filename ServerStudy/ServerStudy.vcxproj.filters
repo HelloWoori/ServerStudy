@@ -36,6 +36,12 @@
     <Filter Include="lab\lab6">
       <UniqueIdentifier>{61e8886f-91a5-4c48-824a-da2c4ad04594}</UniqueIdentifier>
     </Filter>
+    <Filter Include="assignment\assignment2">
+      <UniqueIdentifier>{dade8d8e-3246-4289-ab5a-116aaa44cdff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lab\lab7">
+      <UniqueIdentifier>{b2105cb9-a770-4dcc-99b2-92f604b33c7d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ServerStudy.cpp">
@@ -76,6 +82,36 @@
     </ClCompile>
     <ClCompile Include="lab6\Lab6.cpp">
       <Filter>lab\lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment2\Person.cpp">
+      <Filter>assignment\assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment2\Vehicle.cpp">
+      <Filter>assignment\assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment2\Trailer.cpp">
+      <Filter>assignment\assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment2\Airplane.cpp">
+      <Filter>assignment\assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment2\Boat.cpp">
+      <Filter>assignment\assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment2\Boatplane.cpp">
+      <Filter>assignment\assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment2\Motorcycle.cpp">
+      <Filter>assignment\assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment2\Sedan.cpp">
+      <Filter>assignment\assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment2\UBoat.cpp">
+      <Filter>assignment\assignment2</Filter>
+    </ClCompile>
+    <ClCompile Include="assignment2\DeusExMachina.cpp">
+      <Filter>assignment\assignment2</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +165,51 @@
     </ClInclude>
     <ClInclude Include="lab6\Lab6.h">
       <Filter>lab\lab6</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2\IDivable.h">
+      <Filter>assignment\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2\IDrivable.h">
+      <Filter>assignment\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2\IFlyable.h">
+      <Filter>assignment\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2\ISailable.h">
+      <Filter>assignment\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2\Person.h">
+      <Filter>assignment\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2\Vehicle.h">
+      <Filter>assignment\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2\Trailer.h">
+      <Filter>assignment\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2\Airplane.h">
+      <Filter>assignment\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2\Boat.h">
+      <Filter>assignment\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2\Boatplane.h">
+      <Filter>assignment\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2\Motorcycle.h">
+      <Filter>assignment\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2\Sedan.h">
+      <Filter>assignment\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2\UBoat.h">
+      <Filter>assignment\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="assignment2\DeusExMachina.h">
+      <Filter>assignment\assignment2</Filter>
+    </ClInclude>
+    <ClInclude Include="lab7\Lab7.h">
+      <Filter>lab\lab7</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

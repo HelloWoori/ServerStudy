@@ -8,7 +8,8 @@
 //#include "lab4/Point.h"
 //#include "lab4/PolyLine.h"
 //#include "lab5/TestBarney.h"
-#include "lab6/Lab6.h"
+//#include "lab6/Lab6.h"
+#include "lab7/Lab7.h"
 
 //#include "assignment1/MyString.h"
 
@@ -24,7 +25,7 @@ int main()
 	//using namespace lab5;
 	//TestBarney();
 
-	using namespace lab6;
+	using namespace lab7;
 	Test();
 
 	return 0;
